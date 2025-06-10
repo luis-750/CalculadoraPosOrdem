@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class Calculadora {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); //Para ler do teclado
+        Scanner scanner = new Scanner(System.in); 
 
         System.out.println("Digite a expressão:");
-        String input = scanner.nextLine(); // Ex: "3 4 +"
+        String input = scanner.nextLine(); 
 
         Fila fila = new Fila(); //Criamos a fila
 
